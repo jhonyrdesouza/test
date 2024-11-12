@@ -1,0 +1,66 @@
+{
+  "switcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {🇺🇸 English} br {🇧🇷 Portuguese} other {Unknown}}"
+  },
+
+  "banner": {
+    "title": "Business Plan",
+    "decoration": "Simplified",
+    "description": "Increase your chances of success with the most complete and user-friendly platform for idea validation and business plan creation.",
+    "button": "See how it works",
+    "terms": "By creating your account, you declare that you have read and agree with the Terms of Use and our Privacy Policy."
+  },
+
+  "pages": {
+    "login": {
+      "title": "Welcome back",
+      "description": "Enter your email to log in to your account or select a login method",
+      "emailPlaceholder": "Enter your email",
+      "usernamePlaceholder": "Enter your username",
+      "passwordPlaceholder": "Enter your password",
+      "loginWithEmail": "Login with email",
+      "loginWithUsername": "Login with username",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "confirmPassword": "Confirm your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signupPrompt": "Don't have an account? Sign up",
+      "signInError": "Something went wrong.",
+      "newPasswordPlaceholder": "Confirm your password",
+      "resetPasswordButton": "Reset Password",
+      "alreadyHaveAccount": "Already have an account? Log in",
+      "signupButton": "Sign up with email",
+      "namePlaceholder": "Enter your first and last name",
+      "phonePlaceholder": "Enter your phone number",
+      "oauthError": {
+        "notLinked": "OAuth account not linked",
+        "description": "This account is already linked to another provider."
+      },
+      "oauthButtons": {
+        "orContinueWith": "Or continue with",
+        "googleButton": "Google"
+      },
+      "toasts": {
+        "signInLoading": "Logging in...",
+        "signInSuccess": "Login successful!",
+        "signInError": "Error logging in. Check your credentials.",
+        "resetPasswordLoading": "Resetting password...",
+        "resetPasswordSuccess": "Password reset successfully",
+        "resetPasswordError": "Something went wrong",
+        "signupLoading": "Creating account...",
+        "signupSuccess": "Account created successfully",
+        "signupError": "Error creating account"
+      }
+    },
+    "signup": {
+      "title": "Create an account",
+      "description": "Enter your email below to create your account or select a login method"
+    },
+    "resetPassword": {
+      "title": "Reset password",
+      "description": "Enter your email to reset your password"
+    }
+  }
+}

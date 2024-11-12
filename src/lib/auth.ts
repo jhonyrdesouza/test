@@ -1,0 +1,58 @@
+import { authConfig } from '@/config/auth'
+import { DEFAULT_LOGIN_REDIRECT } from '@/config/constants'
+import NextAuth from 'next-auth'
+import { redirect } from 'next/navigation'
+
+export const { handlers, auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+
+  session: {
+    strategy: 'jwt',
+  },
+
+  pages: {
+    signIn: '/login',
+    newUser: '/signup',
+  },
+
+  events: {
+    // linkAccount: async ({ user }) => {
+    //   await db
+    //     .update(users)
+    //     .set({ emailVerified: new Date() })
+    //     .where(eq(users.id, user.id!));
+    // },
+  },
+
+  callbacks: {
+    session: async ({ session, token }) => {
+      // if (token.sub && session.user) {
+      //   session.user.id = token.sub;
+      // }
+
+      return session
+    },
+
+    jwt: async ({ token }) => token,
+    redirect: () => DEFAULT_LOGIN_REDIRECT,
+  },
+})
+
+/**
+ * Gets the current user from the server session
+ *
+ * @returns The current user
+ */
+export async function getCurrentUser() {
+  const session = await auth()
+  return session?.user
+}
+
+/**
+ * Checks if the current user is authenticated
+ * If not, redirects to the login page
+ */
+export const checkAuth = async () => {
+  const session = await auth()
+  if (!session) redirect('/login')
+}

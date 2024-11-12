@@ -1,0 +1,66 @@
+{
+  "switcher": {
+    "label": "Mudar idioma",
+    "locale": "{locale, select, en {🇺🇸 Inglês} br {🇧🇷 Português} other {Desconhecido}}"
+  },
+
+  "banner": {
+    "title": "Plano de Negócio",
+    "decoration": "Descomplicado",
+    "description": "Aumente suas chances de obter sucesso com a plataforma para validação de ideias e elaboração de plano de negócio mais completa e fácil de usar que existe.",
+    "button": "Veja como funciona",
+    "terms": "Ao criar sua conta, você declara que leu e concorda com os Termos de uso e com a nossa Política de privacidade."
+  },
+
+  "pages": {
+    "login": {
+      "title": "Bem vindo de volta",
+      "description": "Digite seu e-mail para fazer login em sua conta ou selecione um método de login",
+      "emailPlaceholder": "Digite seu e-mail",
+      "usernamePlaceholder": "Digite seu nome de usuário",
+      "passwordPlaceholder": "Digite sua senha",
+      "loginWithEmail": "Login com e-mail",
+      "namePlaceholder": "Informe o seu nome e sobrenome",
+      "phonePlaceholder": "Informe o seu telefone",
+      "loginWithUsername": "Login com nome de usuário",
+      "showPassword": "Mostrar senha",
+      "hidePassword": "Ocultar senha",
+      "confirmPassword": "Confirme sua senha",
+      "rememberMe": "Lembrar de mim",
+      "forgotPassword": "Esqueceu a senha?",
+      "signupPrompt": "Não tem uma conta? Cadastre-se",
+      "signInError": "Algo deu errado.",
+      "newPasswordPlaceholder": "Confirme sua senha",
+      "resetPasswordButton": "Redefinir Senha",
+      "alreadyHaveAccount": "Já tem uma conta? Faça login",
+      "signupButton": "Cadastrar com e-mail",
+      "oauthError": {
+        "notLinked": "Conta OAuth não vinculada",
+        "description": "Esta conta já está vinculada a outro provedor."
+      },
+      "oauthButtons": {
+        "orContinueWith": "Ou continue com",
+        "googleButton": "Google"
+      },
+      "toasts": {
+        "signInLoading": "Entrando...",
+        "signInSuccess": "Login realizado com sucesso!",
+        "signInError": "Erro ao tentar entrar. Verifique suas credenciais.",
+        "resetPasswordLoading": "Redefinindo Senha...",
+        "resetPasswordSuccess": "Senha redefinida com sucesso",
+        "resetPasswordError": "Algo deu errado",
+        "signupLoading": "Criando conta...",
+        "signupSuccess": "Conta criada com sucesso",
+        "signupError": "Erro ao criar a conta"
+      }
+    },
+    "signup": {
+      "title": "Crie uma conta",
+      "description": "Digite seu e-mail abaixo para criar sua conta ou selecione um método de login"
+    },
+    "resetPassword": {
+      "title": "Redefinir senha",
+      "description": "Digite seu e-mail para redefinir sua senha"
+    }
+  }
+}
