@@ -104,9 +104,4 @@
   a:hover {
     color: #fb8500;
   }
-
-  /* Prevent selection of text in the page body */
-  /* body {
-    user-select: none;
-  } */
 }
